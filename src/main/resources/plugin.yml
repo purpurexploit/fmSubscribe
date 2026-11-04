@@ -1,0 +1,24 @@
+name: fmSubscribe
+version: '${version}'
+main: dev.fmsubscribe.FmSubscribePlugin
+api-version: '1.16'
+depend: [ LuckPerms, PlaceholderAPI ]
+description: Подписки игроков с символом в префиксе
+commands:
+  fmsubscribe:
+    description: Управление подписками
+    usage: /<command> [give|take|info|reload]
+    aliases: [ fmsub ]
+permissions:
+  fmsubscribe.give:
+    description: Выдача подписки
+    default: op
+  fmsubscribe.take:
+    description: Снятие подписки
+    default: op
+  fmsubscribe.info:
+    description: Просмотр подписки игрока
+    default: op
+  fmsubscribe.reload:
+    description: Перезагрузка плагина
+    default: op
