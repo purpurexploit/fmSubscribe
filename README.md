@@ -1,7 +1,2 @@
-шоб забилдить качаете архив
-
-unzip -o fmSubscribe-main.zip
-
-cd fmSubscribe-main
-
-bash gradlew clean build
+# fmSubscribe
+Плагин на подписку. (полностью переписан, зафикшен, конфиг почти идентичный)
